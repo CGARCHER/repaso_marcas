@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heladeria>
+    <postre codigo="100000" nombre="brownie">
+        <precio>5.00</precio>
+    </postre>
+    <helado codigo="000001" nombre="Vainilla">
+        <tipo>INDIVIDUAL</tipo>
+        <precio>3.50</precio>
+    </helado>
+    <helado codigo="000002" nombre="Chocolate">
+        <tipo>DOBLE</tipo>
+        <precio>5.50</precio>
+    </helado>
+    <helado codigo="000003" nombre="Pistacho">
+        <tipo>DOBLE</tipo>
+        <precio>7.00</precio>
+        <vegano id="1"/>
+    </helado>
+    <direccion telefono="612345678">Calle Mayor 1</direccion>
+</heladeria>

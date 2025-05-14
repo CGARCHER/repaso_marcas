@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE aeropuerto [
+    <!ELEMENT aeropuerto (nombre, vuelos,fecha)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT vuelos (vuelo+)>
+    <!ELEMENT vuelo (diario,origen,destino,hora-salida,hora-llegada)>
+        <!ATTLIST vuelo codigo CDATA #REQUIRED>
+        <!ATTLIST vuelo estado (R|C) "C">
+    <!ELEMENT diario EMPTY>
+    <!ELEMENT origen (#PCDATA)>
+    <!ELEMENT destino (#PCDATA)>
+    <!ELEMENT hora-salida (#PCDATA)>
+    <!ELEMENT hora-llegada (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+]>
+<aeropuerto>
+	<nombre>JFK</nombre>
+	<vuelos>
+		<vuelo codigo="V22" estado="R">
+			<diario/>
+			<origen>Murcia</origen>
+            <destino>Espinardo</destino>
+			<hora-salida>9:11</hora-salida>
+			<hora-llegada>9:11</hora-llegada>
+		</vuelo>
+		<vuelo codigo="V23" estado="C">
+			<diario/>
+			<origen>Cuenta</origen>
+			<destino>Espinardo</destino>
+			<hora-salida>9:11</hora-salida>
+			<hora-llegada>9:11</hora-llegada>
+		</vuelo>
+	</vuelos>
+	<fecha>7/7/7777</fecha>
+
+</aeropuerto>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca nombre="Biblioteca de Cine" añoFundacion="2000">
+    <peliculas>
+        <pelicula id="P001" disponible="true" premiada="true">
+            <titulo>El Padrino</titulo>
+            <director>Francis Ford Coppola</director>
+            <genero>Drama</genero>
+            <anioLanzamiento>1972</anioLanzamiento>
+            <productora>Paramount Pictures</productora>
+            <sinopsis>La historia de la familia Corleone y su imperio criminal en Nueva York.</sinopsis>
+        </pelicula>
+        <pelicula id="P002" disponible="false">
+            <titulo>Inception</titulo>
+            <director>Christopher Nolan</director>
+            <genero>Ciencia Ficción</genero>
+            <anioLanzamiento>2010</anioLanzamiento>
+            <productora>Warner Bros.</productora>
+        </pelicula>
+    </peliculas>
+    <ubicacion ciudad="Madrid" pais="España">Calle Mayor 123</ubicacion>
+</biblioteca>

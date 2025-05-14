@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo [
+    <!ELEMENT catalogo (pokemon+)>
+    <!ELEMENT pokemon (nombre,tipo,nivel,ataques)>
+    <!ATTLIST pokemon id CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT nivel (#PCDATA)>
+    <!ELEMENT ataques (ataque*)>
+    <!ELEMENT ataque (#PCDATA)>
+]>
+<catalogo>
+    <pokemon id="1">
+        <nombre>Pikachu</nombre>
+        <tipo>Electrico</tipo>
+        <nivel>22</nivel>
+        <ataques>
+            <ataque>ImpactTrueno</ataque>
+            <ataque>Thunderbolt</ataque>
+            <ataque>Ataque rápido</ataque>
+            <ataque>Colmillo Electrico</ataque>
+        </ataques>
+    </pokemon>
+    <pokemon id="2">
+        <nombre>Charmander</nombre>
+        <tipo>Fuego</tipo>
+        <nivel>23</nivel>
+        <ataques>
+            <ataque>Arañazo</ataque>
+            <ataque>Ascuas</ataque>
+            <ataque>Lanzallamas</ataque>
+            <ataque>Furia dragón</ataque>
+        </ataques>
+    </pokemon>
+    <pokemon id="2">
+        <nombre>Cipri</nombre>
+        <tipo>Fuego</tipo>
+        <nivel>88</nivel>
+        <ataques></ataques>
+    </pokemon>
+</catalogo>

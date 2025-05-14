@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="anillo.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<LordOfTheRings>
+
+    <Personaje>
+
+        <Nombre>Legolas</Nombre>
+
+        <Raza>Elfo</Raza>
+
+        <Edad>2931</Edad>
+
+    </Personaje>
+
+    <Personaje>
+
+        <Nombre>Gimli</Nombre>
+
+        <Raza>Enano</Raza>
+
+        <Edad>139</Edad>
+
+    </Personaje>
+
+</LordOfTheRings>

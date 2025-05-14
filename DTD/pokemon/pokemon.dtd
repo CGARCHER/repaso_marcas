@@ -1,0 +1,8 @@
+<!ELEMENT catalogo (pokemon+)>
+<!ELEMENT pokemon (nombre,tipo,nivel,ataques)>
+<!ATTLIST pokemon id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
+<!ELEMENT ataques (ataque*)>
+<!ELEMENT ataque (#PCDATA)>
